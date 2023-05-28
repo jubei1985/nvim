@@ -1,0 +1,2 @@
+require("love")
+print("hello")
