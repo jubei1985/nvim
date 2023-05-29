@@ -1,11 +1,12 @@
 function ColorMy(color)
-	color = color or "rose-pine"
-	vim.cmd.colorscheme(color)
 
---	vim.api.hvim_set_hl(0, "Normal", {bg = "none" })
---	vim.api.hvim_set_hl(0, "NormalFloat", {bg = "none" })
-	
+require('onedark').setup {
+    style = color or "darker"
+}
+
+require('onedark').load()
 
 end
+-- 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light'
+ColorMy("darker")
 
-ColorMy()

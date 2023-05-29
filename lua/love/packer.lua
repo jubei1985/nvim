@@ -10,14 +10,17 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-  --  theme rose-pin
-  use({ 'rose-pine/neovim', as = 'rose-pine' })
-  vim.cmd('colorscheme rose-pine')
-
+  -- colorscheme
+  use 'navarasu/onedark.nvim'
+  -- Treesitter-based highlighting
   use('nvim-treesitter/nvim-treesitter', {run =':TSUpdate'})
+  -- View treesitter information directly
   use('nvim-treesitter/playground')
+  -- un tree
   use('mbbill/undotree')
+  -- Git
   use('tpope/vim-fugitive')
+  -- old lsp 
   use { 'neoclide/coc.nvim', branch='release' }
 
 --use {
