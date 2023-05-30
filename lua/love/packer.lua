@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   -- Git
   use('tpope/vim-fugitive')
+  use('nvim-lua/plenary.nvim')
   -- old lsp 
   use { 'neoclide/coc.nvim', branch='release' }
 
