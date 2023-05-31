@@ -23,7 +23,7 @@ return require('packer').startup(function(use)
   use('nvim-lua/plenary.nvim')
   -- old lsp 
   use { 'neoclide/coc.nvim', branch='release' }
-
+  use {'mfussenegger/nvim-dap'}
 --use {
 --	  'VonHeikemen/lsp-zero.nvim',
 --	  branch = 'v2.x',
