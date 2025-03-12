@@ -1,3 +1,14 @@
 {
-  "java.import.gradle.java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home"
+  "java.enable": true,
+  "java.import.gradle.java.home": "/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home",
+  "java.import.gradle.offline.enabled": true,
+  "java.import.gradle.online.enabled": true,
+  "java.import.gradle.wrapper.enabled": false,
+
+  "groovy.enable": true,
+  "groovy.import.gradle.offline.enabled": true,
+  "groovy.import.gradle.online.enabled": true,
+  "groovy.import.gradle.wrapper.enabled": false,
+
+
 }
